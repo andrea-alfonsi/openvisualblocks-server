@@ -3,11 +3,11 @@ requires = ["flit_core >=2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name =  "py-project-toml"
+name =  "openvisualblocks"
 authors = [
-    {name = "Daniel Ciborowski", email = "dciborow@microsoft.com"},
+    {name = "Andrea", email = "andrea.alfonsi@proton.me"},
 ]
-description = "Sample Python Project for creating a new Python Module"
+description = "A open source implementation of google visual blocks"
 readme = "README.md"
 classifiers = [
     "Development Status :: 3 - Alpha",
