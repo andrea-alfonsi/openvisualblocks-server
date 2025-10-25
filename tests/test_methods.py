@@ -5,7 +5,7 @@
 """This is a sample python file for testing functions from the source code."""
 from __future__ import annotations
 
-from python_package.hello_world import hello_world
+from openvisualblocks.blocks import block
 
 
 def hello_test():
@@ -13,7 +13,7 @@ def hello_test():
     This defines the expected usage, which can then be used in various test cases.
     Pytest will not execute this code directly, since the function does not contain the suffex "test"
     """
-    hello_world()
+    block.Block()
 
 
 def test_hello(unit_test_mocks: None):
